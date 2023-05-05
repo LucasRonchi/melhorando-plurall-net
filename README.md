@@ -7,3 +7,4 @@ Essa extensão foi criada para melhorar o plurall.net, eu uso a plataforma há m
 
 - **Riscar alternativas** da tarefa mínima e complementar com o *botão direito* do mouse
 - **Arruma o tamanho do vídeo** da resolução da tarefa mínima e complementar
+- adiciona a **quebra de linha** na resposta escrita da tarefa mínima e complementar
