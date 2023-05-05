@@ -1,7 +1,12 @@
 .riscar-texto {
     text-decoration: line-through;
 }
-
+.bg-gray {
+    background-color: #ececec;
+}
+.border-round {
+    border-radius: 5px;
+}
 .opacity-texto {
     opacity : 0.5;
 }

@@ -7,7 +7,7 @@
         {
             "matches": ["https://*.plurall.net/*"],
             "css": ["style.css"],
-            "js": ["content.js"]
+            "js": ["video.js", "riscar.js"]
         }
     ]
 }
