@@ -10,9 +10,9 @@
                         option.classList.toggle('bg-gray')
                         option.classList.toggle('border-round')
                         option.lastChild.classList.toggle('opacity-texto')
+                        e.preventDefault()
                     }
                 })
-                e.preventDefault()
             })
 
             clearInterval(loopBtn)
