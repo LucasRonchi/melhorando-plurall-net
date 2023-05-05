@@ -1,8 +1,6 @@
 (() => {
     function create_button() {
-        console.log('asd')
         try {
-            
             document.querySelector('body').addEventListener('contextmenu', (e) => {
                 document.querySelectorAll('li.option').forEach(option => {
                     if ( option.contains(e.target) ) {
