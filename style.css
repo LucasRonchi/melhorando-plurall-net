@@ -1,0 +1,20 @@
+.riscar-texto {
+    text-decoration: line-through;
+}
+
+.opacity-texto {
+    opacity : 0.5;
+}
+
+.container-video-responsive {
+    position: relative;
+    padding: 30%;
+}
+
+.iframe-video-responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

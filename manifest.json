@@ -1,0 +1,13 @@
+{
+    "name": "melhorando plurall net",
+    "description": "Extensão para melhorar a usabilidade do Plurall.net",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.plurall.net/*"],
+            "css": ["style.css"],
+            "js": ["content.js"]
+        }
+    ]
+}
