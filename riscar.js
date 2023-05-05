@@ -2,14 +2,17 @@
     function create_button() {
         console.log('asd')
         try {
-            document.querySelectorAll('li.option').forEach((element, index) => {
-                element.addEventListener('contextmenu', (e)=>{
-                    e.preventDefault()
-                    element.classList.toggle('riscar-texto')
-                    element.classList.toggle('bg-gray')
-                    element.classList.toggle('border-round')
-                    element.lastChild.classList.toggle('opacity-texto')
+            
+            document.querySelector('body').addEventListener('contextmenu', (e) => {
+                document.querySelectorAll('li.option').forEach(option => {
+                    if ( option.contains(e.target) ) {
+                        option.classList.toggle('riscar-texto')
+                        option.classList.toggle('bg-gray')
+                        option.classList.toggle('border-round')
+                        option.lastChild.classList.toggle('opacity-texto')
+                    }
                 })
+                e.preventDefault()
             })
 
             clearInterval(loopBtn)
